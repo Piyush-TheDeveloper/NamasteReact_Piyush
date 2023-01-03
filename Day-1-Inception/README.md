@@ -1,29 +1,40 @@
->> ASSIGNMENT-1 <<
+> > ASSIGNMENT-1 <<
 
 1. ### What is _Emmet_?
-**_Emmet_** is a toolkit which helps developers to write code snippets using some shortcuts allowing easier creation of boilterplate code in the applications.
+
+   **_Emmet_** is a toolkit which helps developers to write code snippets using some shortcuts allowing easier creation of boilterplate code in the applications. It allows for high-speed coding and editing in HTML, XML, XSLT, and other structured code formats via content assist.
+   **_e.g.:_** div#page>div.logo+ul#navigation>li*5>a
 
 2. ### Difference between _Library_ and _Framework_?
-Library and Framework are both a set of code which is written by someone else to ease up the coding process.
-
-The major difference between the two is that with ***'Library'***, the developer decides the flow of code and thus have more freedom while coding and in whatever flow we want whereas in case of a ***'Framework'***, the framework is the in charge of the flow of code thus the developer has to flow a set of rules defined by the framework and has got less freedom while coding
+   A **_Library_** is a like going to Ikea. You already have a home, but you need a bit of help with furniture. You don’t feel like making your own table from scratch. Ikea allows you to pick and choose different things to go in your home. You are in control.
+   A **_Framework_**, on the other hand, is like building a model home. You have a set of blueprints and a few limited choices when it comes to architecture and design. Ultimately, the contractor and blueprint are in control. And they will let you know when and where you can provide your input.
 
 3. ### What is _CDN_? Why do we use it?
-_CDN_ is **_'Content Delivery Network'_**. It is a group of servers which may be distributed globally that allows us to utilize the some resources/assets/pieces of code directly by embedding a link inside our code. Majorly developer use it when they either want to _utilize some components of code quickly_ or when they want to _keep their own codebase lighter_ by just embedding the directly from the existing server instead of putting the resources on their own servers.
+   _CDN_ is **_'Content Delivery Network'_** refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. It allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript  files, stylesheets, images, and videos. The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon.
+   We use **_CDN_** because to- 
+   i) Improve Website Loading times
+   ii) Reduce Bandwidth Cost
+   iii) Increase content availablity and redundancy
+   iv) Improve website security
 
-### Why is React known as React?
-React is known as _'React'_ because of _its ability to react to changes in the data_. Whenever any data is changed in a React component, React automatically renders that component and the changes are reflected at each and every instance where the data was used.
+4. ### Why is React known as React?
+  "**_React_** really shines when your data changes over time."
+  React is known as _'React'_ because of _its ability to react to changes in the data_. Whenever any data is changed in a React component, React automatically renders that component and the changes are reflected at each and every instance where the data was used.
 
 ### What is _crossorigin_ in script tag?
-The **_'crossorigin'_** attribute in script tag allows us to _provide support for **CORS**_, i.e. defining how a CORS request is to be handled. CORS, which is ***Cross-Origin Resource Sharing***, is a mechanism to indicate the origins(domain or port) from where it is safe to obtain different kinds of data or resources.
+
+The **_'crossorigin'_** attribute sets the mode of the request to an HTTP _**CORS**_ Request. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain. _CORS i.e. **Cross-Origin Resource Sharing**_ is used to manage cross-origin requests.
 
 ### What is difference between _React_ and _ReactDOM_
-**_React_** is a Javascript Library which used to build *User Interfaces* and **_ReactDOM_** is a Javascript Library which gives React the ability to interact which the *Browser DOM*
+
+**_React_** is a Javascript Library which used to build _User Interfaces_ and **_ReactDOM_** is a Javascript Library which gives React the ability to interact which the _Browser DOM_. In short, Whenever we use component, classes, elements, etc. We’re using **React** and whenever we use methods like _render()_ or _findDOMNode()_ we’re using _**React-DOM**_.
 
 ### What is difference between _react.development.js_ and _react.production.js_ files via CDN?
-**_react.development.js_** is used when we want to use React on our local machine, inside the development environment where **_react.production.js_** is a minified/optimized version of React (because the debugger isn't present) which is used at the production environment
+
+In CDN link, the **_react.development.js_** is used when we want to use React on our local machine, inside the development environment where **_react.production.js_** is a minified/optimized version of React (because the debugger isn't present) which is used at the production environment.
 
 ### What is _async_ and _defer_?
+
 **_async_** and **_defer_** are boolean attributes that are used in script tag to load external scripts efficiently into our code.
 When a page is loaded 2 things happen: **_HTML Parsing_** and **_Loading of the Scripts_**.
 
