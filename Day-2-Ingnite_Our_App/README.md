@@ -49,7 +49,7 @@
     >Zero Config Bundler
       Parcel comes with _Zero Config_ bundler as in this we don't need to do any configuration to get the parcel work in our project. **_JUST INSTALL AND READY TO GO_**.
 
-9. ### What is `**_.gitignore_**`? What should we add and not add into it?
+9. ### What is **_`.gitignore`_**? What should we add and not add into it?
     A `.gitignore` file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected. The great advantage of putiing them in *.gitignore* file is that those can be huge in size and those files can be generated with the help of package.json or package-lock.json file. It's very important to put `node_modules` in the .gitignore file since it contains a lot of packages which can be installed later by using package.json file. Other directories that should be placed in .gitignore file are `.parcel-cache` and dist. `package.json` and `package-lock.json` must not be put in `.gitignore` file.
 
 10. ### What is the difference between **`package.json`** and **`package-lock.json`** ?
@@ -84,6 +84,5 @@
     | In package.json, if a dependency's version is prefixed with ^, then it will be updated to all future minor versions and not any major version | In package.json, if a dependency's version is prefixed with ~, then it will be updated to all future versions and not minor versions | 
     | Used for Compatible with version | Used for Approximately equivalent to version |
     | It gives you backwards-compatible new functionality as well | It gives you bug fix releases |
-
-    | `Eg:` **^1.2.4** will update all the future Minor and patch updates, for example, _^1.2.4_ will automatically change the dependency to _1.x.x_ if any update occurs | `Eg:` **~1.2.0** will update all the future patch updates. We have to write just _~1.2.0_ and all the next patch update dependencies. For example, _1.2.1, 1.2.2, 1.2.5……………1.2.x_ |
+    | `Eg:` **^1.2.4** will update all the future Minor and patch updates, for example, _^1.2.4_ will automatically change the dependency to _1.x.x_ if any update    occurs | `Eg:` **~1.2.0** will update all the future patch updates. We have to write just _~1.2.0_ and all the next patch update dependencies. For example, _1.2.1, 1.2.2, 1.2.5……………1.2.x_ |
 
