@@ -1,6 +1,6 @@
 >> ASSIGNMENT-2 <<
 
-1. ### What is `**_npm_**`?
+1. ### What is **_npm_**?
     **_NPM_** is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
     **npm** consists of three distinct components:
       * the website
@@ -10,15 +10,15 @@
 2. ### What is _**Parcel/Webpack**_ ? Why do we need it?
     _**Parcel**_ and _**webpack**_ are the ***__bundlers__*** used mostly for JavaScript or Typescript code that helps you to minify, clean, and make your code compact so that it becomes easier to send a request or receive the response from the server when it usually takes you to transfer multiple files without using any bundler for loading the page of your application. Both of these bundlers substantially reduce the time it takes for the transfer of data and files to the server from the application. Along with that both bundlers _**parcel**_ and _**webpack**_ remove the unnecessary comments, new lines, any kind of block delimiters, and white spaces while the functionality of the code remains unchanged.
 
-3. ### What is `**_.parcel-cache_**`?
+3. ### What is **_.parcel-cache_**?
     **.parcel-cache** stores information about the project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch. It's a key reason why parcel can be so fast in development mode.
 
-4. ### What is `**_npx_**` ?
+4. ### What is **_npx_** ?
     **npx** is a command allows you to run an arbitrary command from an npm package (either one installed locally, or fetched remotely), in a similar context as running it via npm run.
     _npx vs npm exec_
     When run via the **npx** binary, all flags and options must be set prior to any positional arguments. When run via npm exec, a double-hyphen -- flag can be used to suppress npm's parsing of switches and options that should be sent to the executed command.
 
-5. ### What is difference between `_**dependencies**_` vs `_**devDependencies**_` ?
+5. ### What is difference between _**`dependencies`**_ vs _**`devDependencies`**_ ?
     To specify the packages your project depends on, you must list them as "_dependencies_" or "_devDependencies_" in your package's package.json file.
       * "**_dependencies_**": Packages required by your application in production.
       * "**_devDependencies_**": Packages that are only needed for local development and testing.
