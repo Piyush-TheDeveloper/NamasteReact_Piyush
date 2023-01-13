@@ -22,17 +22,17 @@
     ```
     In HTML5, type attribute is not mandatory. If type attribute is not present(default), or an empty string (type="") or javascript MIME type (text/javascript or application/ecmascript), it is treated as classic "javascript" file.
     
-    - ```
+- ```
 <script type="module" src="app.js"></script>
   ```
     If the type attribute is set `module`, then the code in that js file is treated as module.
 
-    - ```
+   - ```
 <script type="importmap" src="app.js"></script>
     ```
     If the type attribute is set `importmap`, the body of the element contains importmap ie an JSON object using which the browser can resolve the module specifiers while importing modules.
 
-    - ```
+   - ```
 <script type="{$anyothervalue}" src="app.js"></script>
     ```
   
