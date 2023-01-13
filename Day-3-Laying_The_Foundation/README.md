@@ -1,6 +1,6 @@
 >> ASSIGNMENT-3 <<
 
-1. ### What is `**_JSX_**`?
+1. ### What is `JSX`?
     **_JSX_** is neither a string nor a html tag but a syntactic sugar for the React object. It is a `html-like syntax` inside `js` code for creating react elements. By using JSX, instead of writting markup (html) and logic(js) separately, the separation of concerns (SoC) is emphasized based on loosely coupled units called 'Components' which contains both. 
 
     Broswer does not understand JSX and a transpiler/compiler is required to convert this to browser understandable js code. Eg: Babel
