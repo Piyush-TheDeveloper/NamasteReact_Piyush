@@ -15,24 +15,30 @@
     * `props` in JSX : The values of each attribute can be passed as properties (props) to a react element. This is my favourite superpower of 
        jsx, since it can handle dynamic data to create react elements.
 
-3. ### What is Role of `**_type_**` attribute in script tag ? What options can I use there?
-    `**type**` attribute of the <script> tag indicates the type of script. Until HTML 4,  type is a required attribute. The value of type can be any of the following - 
-    ```
+3. ### What is Role of `type` attribute in script tag ? What options can I use there?
+
+`type` attribute of the <script> tag indicates the type of script. Until HTML 4,  type is a required attribute. The value of type can be any of the following : 
+
+```
 <script type="" src="app.js"></script>
-    ```
-    In HTML5, type attribute is not mandatory. If type attribute is not present(default), or an empty string (type="") or javascript MIME type (text/javascript or application/ecmascript), it is treated as classic "javascript" file.
-    ```
-    <script type="module" src="app.js"></script>
-    ```
-    If the type attribute is set `module`, then the code in that js file is treated as module.
-    ```
-    <script type="importmap" src="app.js"></script>
-    ```
-    If the type attribute is set `importmap`, the body of the element contains importmap ie an JSON object using which the browser can resolve the module specifiers while importing modules.
-    ```
-    <script type="{$anyothervalue}" src="app.js"></script>
-    ```
-    If the type attribute contains anyother value, then the code is treated as data block and will not be processed by the browser. A valid MIME type other than Javascript MIME type (Eg: image/png or text/css) must be mentioned. All the other attributes for this type will be ignored even the `src` attribute. 
+```
+In HTML5, type attribute is not mandatory. If type attribute is not present(default), or an empty string (type="") or javascript MIME type (text/javascript or application/ecmascript), it is treated as classic "javascript" file.
+
+```
+<script type="module" src="app.js"></script>
+```
+If the type attribute is set `module`, then the code in that js file is treated as module.
+
+```
+<script type="importmap" src="app.js"></script>
+```
+If the type attribute is set `importmap`, the body of the element contains importmap ie an JSON object using which the browser can resolve the module specifiers while importing modules.
+
+```
+<script type="{$anyothervalue}" src="app.js"></script>
+```
+  
+If the type attribute contains anyother value, then the code is treated as data block and will not be processed by the browser. A valid MIME type other than Javascript MIME type (Eg: image/png or text/css) must be mentioned. All the other attributes for this type will be ignored even the `src` attribute.
 
 4. ### `{ TitleComponent }` vs `{ <TitleComponent /> }` vs `{ <TitleComponent> </TitleComponent> }` in JSX ?
       `{ TitleComponent }` - This value in jsx is considered as jsx expression or variable. If no such variable is present, no output will be shown in the browser. Console throws the following warning
