@@ -1,6 +1,6 @@
 >> ASSIGNMENT-2 <<
 
-1. ### What is `**_npm_**`?
+1. ### What is **_npm_**?
     **_NPM_** is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
     **npm** consists of three distinct components:
       * the website
@@ -10,15 +10,15 @@
 2. ### What is _**Parcel/Webpack**_ ? Why do we need it?
     _**Parcel**_ and _**webpack**_ are the ***__bundlers__*** used mostly for JavaScript or Typescript code that helps you to minify, clean, and make your code compact so that it becomes easier to send a request or receive the response from the server when it usually takes you to transfer multiple files without using any bundler for loading the page of your application. Both of these bundlers substantially reduce the time it takes for the transfer of data and files to the server from the application. Along with that both bundlers _**parcel**_ and _**webpack**_ remove the unnecessary comments, new lines, any kind of block delimiters, and white spaces while the functionality of the code remains unchanged.
 
-3. ### What is `**_.parcel-cache_**`?
+3. ### What is **_.parcel-cache_**?
     **.parcel-cache** stores information about the project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch. It's a key reason why parcel can be so fast in development mode.
 
-4. ### What is `**_npx_**` ?
+4. ### What is **_npx_** ?
     **npx** is a command allows you to run an arbitrary command from an npm package (either one installed locally, or fetched remotely), in a similar context as running it via npm run.
     _npx vs npm exec_
     When run via the **npx** binary, all flags and options must be set prior to any positional arguments. When run via npm exec, a double-hyphen -- flag can be used to suppress npm's parsing of switches and options that should be sent to the executed command.
 
-5. ### What is difference between `_**dependencies**_` vs `_**devDependencies**_` ?
+5. ### What is difference between _**`dependencies`**_ vs _**`devDependencies`**_ ?
     To specify the packages your project depends on, you must list them as "_dependencies_" or "_devDependencies_" in your package's package.json file.
       * "**_dependencies_**": Packages required by your application in production.
       * "**_devDependencies_**": Packages that are only needed for local development and testing.
@@ -49,7 +49,7 @@
     >Zero Config Bundler
       Parcel comes with _Zero Config_ bundler as in this we don't need to do any configuration to get the parcel work in our project. **_JUST INSTALL AND READY TO GO_**.
 
-9. ### What is `**_.gitignore_**`? What should we add and not add into it?
+9. ### What is **_`.gitignore`_**? What should we add and not add into it?
     A `.gitignore` file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected. The great advantage of putiing them in *.gitignore* file is that those can be huge in size and those files can be generated with the help of package.json or package-lock.json file. It's very important to put `node_modules` in the .gitignore file since it contains a lot of packages which can be installed later by using package.json file. Other directories that should be placed in .gitignore file are `.parcel-cache` and dist. `package.json` and `package-lock.json` must not be put in `.gitignore` file.
 
 10. ### What is the difference between **`package.json`** and **`package-lock.json`** ?
@@ -84,6 +84,5 @@
     | In package.json, if a dependency's version is prefixed with ^, then it will be updated to all future minor versions and not any major version | In package.json, if a dependency's version is prefixed with ~, then it will be updated to all future versions and not minor versions | 
     | Used for Compatible with version | Used for Approximately equivalent to version |
     | It gives you backwards-compatible new functionality as well | It gives you bug fix releases |
-
-    | `Eg:` **^1.2.4** will update all the future Minor and patch updates, for example, _^1.2.4_ will automatically change the dependency to _1.x.x_ if any update occurs | `Eg:` **~1.2.0** will update all the future patch updates. We have to write just _~1.2.0_ and all the next patch update dependencies. For example, _1.2.1, 1.2.2, 1.2.5……………1.2.x_ |
+    | `Eg:` **^1.2.4** will update all the future Minor and patch updates, for example, _^1.2.4_ will automatically change the dependency to _1.x.x_ if any update    occurs | `Eg:` **~1.2.0** will update all the future patch updates. We have to write just _~1.2.0_ and all the next patch update dependencies. For example, _1.2.1, 1.2.2, 1.2.5……………1.2.x_ |
 
