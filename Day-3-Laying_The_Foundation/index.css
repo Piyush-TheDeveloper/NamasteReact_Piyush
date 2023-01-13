@@ -1,0 +1,28 @@
+#container {
+	background-color: red;
+}
+
+.title{
+	background-color:rgb(88, 227, 88);
+}
+
+.title_jsx{
+	background-color:rgb(88, 218, 227);
+}
+
+.title_comp{
+	background-color:rgb(227, 215, 88);
+}
+
+.heading-wrapper{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.logo-wrapper{
+	display:flex;
+	align-items:center;
+	color:rgb(28, 133, 151);
+	font-weight: bold;
+}
