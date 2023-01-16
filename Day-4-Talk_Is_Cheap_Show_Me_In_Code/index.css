@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  margin:10px;
+  align-items: center;
+}
+
+.nav-items > ul{
+  display:flex;
+  list-style: none;
+}
+
+.nav-items > ul > li{
+  /* padding:1rem; */
+  margin:1rem;
+  font-weight: bold;
+}
+
+.card{
+  margin:10px;
+  padding:1rem;
+  text-align:center;
+  border:1px solid red;
+}
+
+.restaurant-list{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer{
+  text-align:center;
+}
