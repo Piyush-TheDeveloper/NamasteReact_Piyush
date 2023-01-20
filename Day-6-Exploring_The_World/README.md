@@ -79,7 +79,7 @@
          2. Expression Statement -> 
          3. Conditional Statement
    
-   8. ### What is **Conditional Rendering** ? _Explain with Code_.
+ 8. ### What is **Conditional Rendering** ? _Explain with Code_.
       * `Conditional rendering` in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.
       * In React, you can conditionally render JSX using JavaScript syntax like `if` statements, `Logical AND(&&)`, and `Ternary (? :)` operators.
       * _Eg._
@@ -109,11 +109,11 @@
             </li>
          ); 
             ```
-   9. ### What is `CORS` ?
+ 9. ### What is `CORS` ?
       `CORS` stands for **C**ross-**O**rigin **R**esource **S**haring. _It allows you to make requests from one website to another website in the browser_, which is normally prohibited by another browser policy called the `Same-Origin Policy (SOP)`.  It also provides potential for cross-domain attacks, if a website's CORS policy is poorly configured and implemented.
       `CORS` also relies on a mechanism by which browsers make a "**preflight**" request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that **preflight**, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
 
-   10. ### What is `async` & `await` ?
+ 10. ### What is `async` & `await` ?
       `JavaScript` is **Synchronous** in nature which means that it has an event loop that allows you to queue up an action that won’t take place until the loop is available sometime after the code that queued the action has finished executing.
       * `async` - It simply allows us to write promises-based code as if it was synchronous and it checks that we are not breaking the execution thread. It operates asynchronously via the event loop. Async functions will always return a value. It makes sure that a promise is returned and if it is not returned then JavaScript automatically wraps it in a promise which is resolved with its value.
       * `await` - It is used to wait for the promise. It could be used within the async block only. It makes the code wait until the promise returns a result. It only makes the async block wait.
@@ -132,5 +132,5 @@
       2
       Hello World
       ```
-   11. ### What is the use of `const json = await data.json();` in getRestaurants() ?
+ 11. ### What is the use of `const json = await data.json();` in getRestaurants() ?
       This is referring to working of `json` while fetching the data from API. Refer to [THIS LINK](https://developer.mozilla.org/en-US/docs/Web/API/Response/json) for more information.
