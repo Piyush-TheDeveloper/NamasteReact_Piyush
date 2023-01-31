@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  margin:10px;
+  align-items: center;
+}
+
+.nav-items > ul{
+  display:flex;
+  list-style: none;
+}
+
+.nav-items > ul > li{
+  /* padding:1rem; */
+  margin:1rem;
+  font-weight: bold;
+}
+
+.btn-submit{
+  width:5%;
+  height:30px;
+  margin-left: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-login{
+  width:100%;
+  height:30px;
+  margin-left: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.searchbar{
+  width:100%;
+  /* margin-left:30%; */
+  padding:1rem;
+  text-align: center;
+}
+
+.search-input{
+  width:35%;
+  border-radius: 10px;
+  padding:10px;
+  font-size: 18px;
+  /* border: none; */
+  border-color: lightcoral;
+  border-style: solid;
+}
+
+.search-input:focus{
+  background: rgb(200, 249, 223);
+  font-weight: 600;
+}
+
+/* .card{
+  width:100%;
+  margin:10px;
+  border:1px solid red;
+  border-radius: 1rem;
+  padding:5px;
+} */
+
+.card{
+  width: 250px;
+  height:370px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 1rem;
+}
+
+/* .link-styles, .card{
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+} */
+
+.card > .card-img{
+  width:100%;
+  border-radius: 1rem;
+}
+
+.shimmer-card{
+  width:250px;
+  height:350px;
+  border-radius: 1rem;
+  background: lightgray;
+  margin:10px;
+  padding:5px;
+}
+
+.restaurant-list{
+  
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* margin-left:10%; */
+  /* flex-wrap: wrap; */
+  /* width:100%; */
+}
+
+.res-menu{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  margin:20px;
+}
+
+.footer{
+  text-align:center;
+}
