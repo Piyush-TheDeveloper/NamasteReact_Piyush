@@ -1,0 +1,33 @@
+{
+  "name": "day-8-lets_get_classy",
+  "version": "1.0.0",
+  "description": "day-8-assignment",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush-TheDeveloper/NamasteReact_Piyush.git"
+  },
+  "keywords": [
+    "Namaste",
+    "React"
+  ],
+  "author": "Piyush Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piyush-TheDeveloper/NamasteReact_Piyush/issues"
+  },
+  "homepage": "https://github.com/Piyush-TheDeveloper/NamasteReact_Piyush#readme",
+  "dependencies": {
+    "parcel": "^2.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.7.0",
+    "react-router-dom": "^6.7.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
